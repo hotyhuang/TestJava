@@ -1,10 +1,12 @@
 package learn.dota;
 
+import java.io.File;
+
 public class Hello {
-
+	
 	public static void main(String[] args) {
-		Hero aa = new Hero("Earth Shaker");
-		System.out.println(aa.name);
+		File f1 = new File("/Users/hoty/java-workspace/yoyo.txt");
+		
+		f1.delete();
 	}
-
 }
